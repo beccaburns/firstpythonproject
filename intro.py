@@ -1,3 +1,6 @@
-message = 'Hello World'
+greeting = 'Hello'
+name = 'Aurelien'
 
-print(message.count('Hello'))
+message = '{}, {}. Welcome!'.format(greeting, name)
+
+print(message)
